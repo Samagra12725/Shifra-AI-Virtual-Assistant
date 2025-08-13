@@ -21,7 +21,7 @@ async function main(prompt) {
       lowerPrompt.includes("what is your name") ||
       lowerPrompt.includes("tell me your name") 
     ) {
-      return "My name is Darvis, your advanced virtual assistant.";
+      return "My name is Shifra, your advanced virtual assistant.";
     }
     //  Generate Gemini response
     const response = await ai.models.generateContent({
