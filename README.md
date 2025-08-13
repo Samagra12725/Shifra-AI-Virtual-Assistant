@@ -1,12 +1,51 @@
-# React + Vite
+# 🧠 Darvis AI Virtual Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Darvis is a browser-based, voice-enabled AI assistant built with React.js and Gemini API. It offers natural, conversational interaction through speech recognition, intelligent responses, and expressive voice output—all wrapped in a sleek, responsive UI. Designed for accessibility, personality, and multilingual support, Darvis brings human-like assistance to the web.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Preview
+https://samagradarvisai.netlify.app/
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌟 Key Features
+
+- 🎙️ **Voice Input** — Real-time speech recognition via Web Speech API.
+- 🧠 **Gemini AI Integration** — Context-aware replies powered by Google’s Gemini API.
+- 🔊 **Voice Output** — Dynamic speech synthesis with customizable voice selection.
+- 💬 **Chat Interface** — React-powered UI with smooth animations and feedback.
+- 🌐 **Multilingual Support** — Easily adaptable for multiple languages and locales.
+- 🦾 **Accessibility First** — Designed for keyboard navigation and screen reader compatibility.
+- 🧩 **Modular Architecture** — Clean component structure for scalability and customization.
+- 🎭 **Assistant Personality** — Customizable persona logic for expressive, relatable responses.
+- 📊 **UI Feedback System** — Visual cues and status indicators for user comfort.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer         | Technology                          |
+|---------------|--------------------------------------|
+| Frontend      | React.js, HTML, CSS, JavaScript      |
+| AI Backend    | Gemini API (Google AI)               |
+| Voice Input   | Web Speech API (SpeechRecognition)   |
+| Voice Output  | Web Speech API (SpeechSynthesis)     |
+| UI/UX         | Custom animations, responsive design |
+| State Mgmt    | React Hooks, Context API             |
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Samagra12725/Darvis-AI-Virtual-Assistant.git
+cd Darvis-AI-Virtual-Assistant
+npm install
+
+
+
+
+
+
+
