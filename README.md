@@ -23,7 +23,7 @@ https://samagradarvisai.netlify.app/
 
 ## 🛠️ Tech Stack
 
-| Layer         | Technology                          |
+| Layer         | Technology                           |
 |---------------|--------------------------------------|
 | Frontend      | React.js, HTML, CSS, JavaScript      |
 | AI Backend    | Gemini API (Google AI)               |
@@ -34,18 +34,33 @@ https://samagradarvisai.netlify.app/
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Installation & Setup
 
-### 1. Clone the Repository
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/yourusername/darvis-ai-assistant.git
+   cd darvis-ai-assistant
+   npm install
 
-```bash
-git clone https://github.com/Samagra12725/Darvis-AI-Virtual-Assistant.git
-cd Darvis-AI-Virtual-Assistant
-npm install
+## 📂 Project Structure
+darvis-ai-assistant/
+│
+├── public/
+│ ├── index.html
+│ └── assets/
+├── src/
+│ ├── components/
+│ │ ├── UserContext.jsx
+│ ├── styles/
+│ │ ├── App.css
+│ │ └── Index.css
+│ ├── App.js
+│ ├── gemini.js
+├── package.json
+└── README.md
 
-
-
-
-
-
+## 🤝 Contributing
+Pull requests are welcome!
+If you’d like to improve Darvis, feel free to fork the repository and submit a PR.
+   
 
