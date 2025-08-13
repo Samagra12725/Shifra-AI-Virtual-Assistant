@@ -1,6 +1,6 @@
-# 🧠 Darvis AI Virtual Assistant
+# 🧠 Shifra AI Virtual Assistant
 
-Darvis is a browser-based, voice-enabled AI assistant built with React.js and Gemini API. It offers natural, conversational interaction through speech recognition, intelligent responses, and expressive voice output—all wrapped in a sleek, responsive UI. Designed for accessibility, personality, and multilingual support, Darvis brings human-like assistance to the web.
+Shifra is a browser-based, voice-enabled AI assistant built with React.js and Gemini API. It offers natural, conversational interaction through speech recognition, intelligent responses, and expressive voice output—all wrapped in a sleek, responsive UI. Designed for accessibility, personality, and multilingual support, Darvis brings human-like assistance to the web.
 
 
 ## 🚀 Live Preview
