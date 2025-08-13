@@ -1,0 +1,112 @@
+/* Main container */
+.main {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2vh 2vw;
+  gap: 2vh;
+  box-sizing: border-box;
+}
+
+/* Assistant image */
+#darvis {
+  max-height: 60vh;
+  max-width: 90vw;
+  object-fit: contain;
+}
+
+/* Gradient name text */
+span {
+  background: linear-gradient(to right, rgb(34, 221, 231), rgb(237, 4, 125));
+  font-size: 2.5vmax;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin: 1vh 0;
+}
+
+/* Microphone button */
+button {
+  width: 50vw;
+  max-width: 220px;
+  height: 6vh;
+  min-height: 40px;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  border-radius: 2em;
+  border: none;
+  background-color: rgb(79, 224, 234);
+  box-shadow: 0 0 20px rgb(79, 224, 234);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Listening GIF */
+#speak {
+  width: 80px;
+  max-width: 20vw;
+}
+
+/* Prompt text */
+p {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  padding: 0 5vw;
+  word-wrap: break-word;
+}
+
+/* Response container */
+.response {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+  width: 100%;
+}
+
+/* AI response GIF */
+#aigif {
+  width: 60vw;
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 480px) {
+  span {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 70vw;
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 0 20px;
+  }
+
+  #shifra {
+    max-height: 50vh;
+  }
+
+  #aigif {
+    width: 80vw;
+  }
+}
