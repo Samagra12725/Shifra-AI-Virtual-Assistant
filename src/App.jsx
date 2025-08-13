@@ -21,10 +21,10 @@ function App() {
   return (
     <div className="main">
       {/* Assistant avatar */}
-      <img src={va} alt="Virtual Assistant" id="darvis" />
+      <img src={va} alt="Virtual Assistant" id="Shifra" />
 
       {/* Static identity line */}
-      <span>I'm Darvis, your advanced virtual assistant</span>
+      <span>I'm Shifra, your advanced virtual assistant</span>
 
       {/* Conditional rendering based on speaking state */}
       {!speaking ? (
