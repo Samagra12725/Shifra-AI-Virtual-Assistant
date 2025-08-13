@@ -4,6 +4,7 @@ Shifra is a browser-based, voice-enabled AI assistant built with React.js and Ge
 
 
 ## 🚀 Live Preview
+https://samagrashifraai.netlify.app/
 
 
 
