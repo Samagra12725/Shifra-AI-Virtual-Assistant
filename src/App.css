@@ -1,70 +1,70 @@
 /* Main container */
 .main {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 2vh 2vw;
-  gap: 2vh;
+  padding: 2% 4%;
+  gap: 2rem;
   box-sizing: border-box;
 }
 
 /* Assistant image */
 #Shifra {
   max-height: 60vh;
-  max-width: 90vw;
+  max-width: 100%;
+  height: auto;
   object-fit: contain;
 }
 
 /* Gradient name text */
 span {
   background: linear-gradient(to right, rgb(34, 221, 231), rgb(237, 4, 125));
-  font-size: 2.5vmax;
+  font-size: clamp(1.2rem, 2.5vw, 2.5rem); /* scales with screen size */
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   text-align: center;
-  margin: 1vh 0;
+  margin: 1rem 0;
 }
 
 /* Microphone button */
 button {
-  width: 50vw;
-  max-width: 220px;
-  height: 6vh;
-  min-height: 40px;
+  width: clamp(150px, 50vw, 220px); /* flexible width */
+  height: clamp(40px, 6vh, 60px);
   display: flex;
-  gap: 1em;
+  gap: 0.8em;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
-  border-radius: 2em;
+  font-size: clamp(0.85rem, 1vw, 1.1rem);
+  border-radius: 50px;
   border: none;
   background-color: rgb(79, 224, 234);
   box-shadow: 0 0 20px rgb(79, 224, 234);
   cursor: pointer;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 button:hover {
   transform: scale(1.05);
+  background-color: rgb(65, 200, 210);
 }
 
 /* Listening GIF */
 #speak {
-  width: 80px;
-  max-width: 20vw;
+  width: clamp(50px, 15vw, 80px);
+  height: auto;
 }
 
 /* Prompt text */
 p {
-  font-size: 1.2rem;
+  font-size: clamp(0.9rem, 1.2vw, 1.2rem);
   color: white;
   text-align: center;
-  padding: 0 5vw;
+  padding: 0 5%;
   word-wrap: break-word;
 }
 
@@ -74,39 +74,38 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2vh;
+  gap: 2rem;
   width: 100%;
 }
 
 /* AI response GIF */
 #aigif {
-  width: 60vw;
-  max-width: 300px;
+  width: clamp(150px, 60vw, 300px);
   height: auto;
   object-fit: contain;
 }
 
-/* Media query for small screens */
+/* Media query for extra small screens */
 @media screen and (max-width: 480px) {
   span {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
   }
 
   button {
-    width: 70vw;
-    font-size: 0.9rem;
+    width: 80%;
+    font-size: clamp(0.8rem, 3vw, 1rem);
   }
 
   p {
-    font-size: 1rem;
-    padding: 0 20px;
+    font-size: clamp(0.8rem, 3.5vw, 1rem);
+    padding: 0 10px;
   }
 
-  #shifra {
+  #Shifra {
     max-height: 50vh;
   }
 
   #aigif {
-    width: 80vw;
+    width: 80%;
   }
 }
