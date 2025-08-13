@@ -4,7 +4,7 @@ Shifra is a browser-based, voice-enabled AI assistant built with React.js and Ge
 
 
 ## 🚀 Live Preview
-https://samagradarvisai.netlify.app/
+
 
 
 ## 🌟 Key Features
@@ -38,12 +38,12 @@ https://samagradarvisai.netlify.app/
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/yourusername/darvis-ai-assistant.git
-   cd darvis-ai-assistant
+   git clone https://github.com/yourusername/shifra-ai-assistant.git
+   cd shifra-ai-assistant
    npm install
 
 ## 📂 Project Structure
-darvis-ai-assistant/
+shifra-ai-assistant/
 │
 ├── public/
 │ ├── index.html
