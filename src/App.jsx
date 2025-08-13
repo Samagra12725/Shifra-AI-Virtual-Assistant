@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./App.css";
 import { CiMicrophoneOn } from "react-icons/ci"; // Microphone icon for the button
-import va from "./assets/Darvis.jpg"; // Static image of the assistant
+import va from "./assets/ai.png"; // Static image of the assistant
 import speakImg from "./assets/speak.gif"; // GIF shown while listening
 import aigif from "./assets/aiVoice.gif"; // GIF shown while responding
 import { datacontext } from "./context/ContextUser"; // Global context for voice and prompt state
